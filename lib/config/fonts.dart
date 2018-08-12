@@ -1,0 +1,1 @@
+const furunPrimaryFont = "VarelaRound";
