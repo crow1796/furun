@@ -57,7 +57,7 @@ class _LoginScreenState extends State<LoginScreen>{
                                     SizedBox(height: 10.0),
                                     Text(
                                         "Please, sign in or create an account",
-                                        style: Theme.of(context).textTheme.title,
+                                        style: Theme.of(context).textTheme.subhead,
                                     ),
                                     Padding(
                                         padding: EdgeInsets.fromLTRB(50.0, 50.0, 50.0, 25.0),

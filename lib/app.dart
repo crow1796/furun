@@ -51,6 +51,9 @@ class FurunApp extends StatelessWidget{
                     fontSize: 22.0,
                     color: furunPrimaryColorPink
                 ),
+                subhead: base.textTheme.subhead.copyWith(
+                    color: furunPrimaryColorPink
+                ),
                 title: base.textTheme.title.copyWith(
                     fontSize: 17.5,
                     color: furunPrimaryColorPink

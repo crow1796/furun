@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:furun/config/colors.dart';
+import 'package:furun/flutter_icons.dart';
 import 'package:furun/widgets/base/BFlatButton.dart';
 
 class LoginForm extends StatelessWidget {
@@ -9,13 +10,13 @@ class LoginForm extends StatelessWidget {
             children: <Widget>[
                 TextField(
                     decoration: InputDecoration(
-                        icon: Icon(Icons.account_circle),
+                        icon: Icon(FurunIcons.user_1),
                         labelText: 'Username',
                     )
                 ),
                 TextField(
                     decoration: InputDecoration(
-                        icon: Icon(Icons.lock),
+                        icon: Icon(FurunIcons.lock_1),
                         labelText: 'Password',
                     ),
                     obscureText: true,
